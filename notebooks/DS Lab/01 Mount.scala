@@ -10,7 +10,7 @@
 dbutils.fs.mount(
   source = "wasbs://dslab01@airdelays.blob.core.windows.net/",
   mountPoint = "/mnt/dslab01",
-  extraConfigs = Map("fs.azure.account.key.airdelays.blob.core.windows.net" -> "xHVIVT+y3SaE+GWLffq1YgGpDinwBcnsaElSi/2YKidwEJzdpx7Iump40b0cFg/O9CsMOfmCr8QtIL+JhRv9LA=="))
+  extraConfigs = Map("fs.azure.account.key.airdelays.blob.core.windows.net" -> "insert_key_here"))
 
 // COMMAND ----------
 
