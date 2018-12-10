@@ -7,14 +7,18 @@
 
 // COMMAND ----------
 
-# dbutils.fs.unmount("/mnt/dslab01")
-
-// COMMAND ----------
-
 dbutils.fs.mount(
   source = "wasbs://dslab01@airdelays.blob.core.windows.net/",
   mountPoint = "/mnt/dslab01",
   extraConfigs = Map("fs.azure.account.key.airdelays.blob.core.windows.net" -> "<insert key here>"))
+
+// COMMAND ----------
+
+// MAGIC %md In case the location is already mounted and you need to unmount, run the following cell to do so. 
+
+// COMMAND ----------
+
+# dbutils.fs.unmount("/mnt/dslab01")
 
 // COMMAND ----------
 
