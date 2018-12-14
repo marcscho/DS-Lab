@@ -269,7 +269,7 @@ for i, rec in enumerate(trainingSummary.recallByLabel):
 
 # COMMAND ----------
 
-# MAGIC %md The confusion matrix shows the actual vs. predicted values for each class. It becomes apparent now that the model was only able correctly classify 7(!) flights that were actually delayed as such which is clearly a very bad result! 
+# MAGIC %md The confusion matrix shows the actual vs. predicted values for each class.
 
 # COMMAND ----------
 
